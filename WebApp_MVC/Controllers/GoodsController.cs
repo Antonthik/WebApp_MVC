@@ -14,10 +14,11 @@ namespace WebApp_MVC.Controllers
         [HttpPost]
         public IActionResult Goods([FromForm] Good model)
         {
-
-            _catalog.Goods.Add(model);
+         //_catalog.Goods.Add(model);
+           _catalog.Add(model);            
             return View();
         }
+
 
         [HttpGet]
         public IActionResult Goods()
