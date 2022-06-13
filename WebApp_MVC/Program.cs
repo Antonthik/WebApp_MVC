@@ -1,7 +1,12 @@
+using WebApp_MVC.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<ThreadSafeCatalog>();
+//builder.Services.AddSingleton<Catalog>();
+//builder.Services.AddSingleton<Good>();
 
 var app = builder.Build();
 
