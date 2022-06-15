@@ -18,14 +18,13 @@ namespace WebApp_MVC.Models
             _goodsDict.TryAdd(good.Id, good);
         }
 
+
+
         public void Remove(Good good)
         {
             _goodsDict.TryRemove(good.Id, out _);
         }
 
-        public IreadOnlyCollection<Good>GetAll()
-        {
-            _goodsDict.Values.toArray();
-        }
+        public IReadOnlyCollection<Good> All => _goodsDict.Values.ToArray();
     }
 }

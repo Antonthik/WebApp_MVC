@@ -5,7 +5,7 @@ namespace WebApp_MVC.Controllers
 {
     public class CategoriesController : Controller
     {
-        private ThreadSafeCatalog _catalog;
+        private Catalog _catalog;
         public CategoriesController(Catalog catalog)
         {
             _catalog = catalog;
