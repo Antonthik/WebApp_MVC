@@ -3,7 +3,7 @@ using System.Net.Mail;
 
 namespace WebApp_MVC.Models
 {
-    public class EmailService
+    public class EmailService:IEmailService
     {
 
         //public async Task SendEmailAsync(string email, string subject, string message)
@@ -29,10 +29,12 @@ namespace WebApp_MVC.Models
         //}
         //
         private string email { get; set; }
+        public string emailTo { get; set; }
         private string subject { get; set; }
         private string msg { get; set; }
-        public EmailService(string email, string subject, string msg)
+        public EmailService(string email, string emailTo, string subject, string msg)
         {
+            this.emailTo = emailTo;    
             this.email = email;
             this.subject = subject;
             this.msg = msg;
@@ -45,8 +47,8 @@ namespace WebApp_MVC.Models
             try
             {
                 var message = new MimeMessage();
-                message.From.Add(new MailboxAddress("Моя компания", email)); //отправитель сообщения
-                message.To.Add(new MailboxAddress("","mail@yandex.ru")); //адресат сообщения
+                message.From.Add(new MailboxAddress("", email)); //отправитель сообщения
+                message.To.Add(new MailboxAddress("", emailTo)); //адресат сообщения
                 message.Subject = subject; //тема сообщения
                 message.Body = new TextPart(MimeKit.Text.TextFormat.Html){Text = msg};
                 //message.Body = new BodyBuilder() { HtmlBody = "<div style=\"color: green;\">Сообщение от MailKit</div>" }.ToMessageBody(); //тело сообщения (так же в формате HTML)
@@ -54,7 +56,7 @@ namespace WebApp_MVC.Models
                 using (MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
                 {
                     client.Connect("smtp.beget.com", 25, false); //либо использум порт 465
-                    client.Authenticate("", ""); //логин-пароль от аккаунта
+                    client.Authenticate(email, "3drtLSa1"); //логин-пароль от аккаунта
                     client.Send(message);
 
                     client.Disconnect(true);

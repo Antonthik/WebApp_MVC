@@ -10,11 +10,9 @@
             {
                 Goods.Add(item);
             }
-            var itemMail = new EmailService(email: "*@gmail.com", subject: "", msg: "товар создан");
-            lock (itemMail)//потокобезопасный, но медленный способ 
-            {
-                itemMail.SendEmailCustom();
-            }
+            var itemMail = new EmailService(email: "asp2022gb@rodion-m.ru", emailTo: "ganseanderson@gmail.com", subject: "22", msg: "товар создан");
+            itemMail.SendEmailCustom();
+        
 
         }
         public void Clear()
