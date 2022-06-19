@@ -5,6 +5,7 @@ namespace WebApp_MVC.Controllers
 {
     public class CategoriesController : Controller
     {
+
         private Catalog _catalog;
         public CategoriesController(Catalog catalog)
         {

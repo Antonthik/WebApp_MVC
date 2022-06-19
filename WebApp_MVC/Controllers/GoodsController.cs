@@ -7,16 +7,20 @@ namespace WebApp_MVC.Controllers
     {
         //private Catalog _catalog;
         private Catalog _catalog;
-        public GoodsController(Catalog catalog)
+        private ILogger<GoodsController> _logger;
+        public GoodsController(Catalog catalog, ILogger<GoodsController> logger)
         {
             _catalog = catalog;
+            _logger = logger;
         }
 
         [HttpPost]
         public IActionResult Goods([FromForm] Good model)
         {
          //_catalog.Goods.Add(model);
-           _catalog.Add(model);            
+           _catalog.Add(model);
+           _logger.LogInformation($"Добавлены данные : Id {model.Id} Name {model.Name} Discr{model.Discription}");//элемент логирования
+
             return View();
         }
 

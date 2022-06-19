@@ -43,9 +43,15 @@ namespace WebApp_MVC.Models
 
         public void SendEmailCustom()
         {
-           
+            var builder = WebApplication.CreateBuilder();//создаем читаем из appsettings.json
+            string host = builder.Configuration["SmtpCredentials:Host"]; //читаем из appsettings.json
+            string user = builder.Configuration["SmtpCredentials:UserName"];//читаем из appsettings.json
+            string password = builder.Configuration["SmtpCredentials:Password"];//читаем из appsettings.json
+
             try
             {
+              
+
                 var message = new MimeMessage();
                 message.From.Add(new MailboxAddress("", email)); //отправитель сообщения
                 message.To.Add(new MailboxAddress("", emailTo)); //адресат сообщения
@@ -55,8 +61,10 @@ namespace WebApp_MVC.Models
 
                 using (MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
                 {
-                    client.Connect("smtp.beget.com", 25, false); //либо использум порт 465
-                    client.Authenticate(email, "3drtLSa1"); //логин-пароль от аккаунта
+                    client.Connect(host, 25, false); //либо использум порт 465
+                    client.Authenticate(user, password); //логин-пароль от аккаунта
+                    //client.Connect("smtp.beget.com", 25, false); //либо использум порт 465
+                    //client.Authenticate(email, "3drtLSa1"); //логин-пароль от аккаунта
                     client.Send(message);
 
                     client.Disconnect(true);
