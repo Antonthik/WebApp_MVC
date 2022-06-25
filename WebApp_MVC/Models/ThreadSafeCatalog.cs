@@ -26,5 +26,6 @@ namespace WebApp_MVC.Models
         }
 
         public IReadOnlyCollection<Good> All => _goodsDict.Values.ToArray();
+
     }
 }

@@ -7,11 +7,13 @@ namespace WebApp_MVC.Controllers
     {
         //private Catalog _catalog;
         private Catalog _catalog;
+        private ThreadSafeCatalog _catalogNew;
         private ILogger<GoodsController> _logger;
-        public GoodsController(Catalog catalog, ILogger<GoodsController> logger)
+        public GoodsController(Catalog catalog, ILogger<GoodsController> logger, ThreadSafeCatalog catalogNew)
         {
             _catalog = catalog;
             _logger = logger;
+            _catalogNew = catalogNew;
         }
 
         [HttpPost]
@@ -19,8 +21,9 @@ namespace WebApp_MVC.Controllers
         {
          //_catalog.Goods.Add(model);
            _catalog.Add(model);
-           _logger.LogInformation($"Добавлены данные : Id {model.Id} Name {model.Name} Discr{model.Discription}");//элемент логирования
-
+           //_catalogNew.Add(model);
+            _logger.LogInformation($"Добавлены данные : Id {model.Id} Name {model.Name} Discr{model.Discription}");//элемент логирования
+            
             return View();
         }
 
