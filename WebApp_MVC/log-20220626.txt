@@ -1,0 +1,1070 @@
+2022-06-26 08:14:07.664 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 08:14:08.427 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 08:14:08.430 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 08:14:08.436 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 08:14:08.438 +03:00 [INF] Hosting environment: Development
+2022-06-26 08:14:08.439 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 08:14:09.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 08:14:09.589 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 08:14:09.688 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 08:14:09.724 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 08:14:10.240 +03:00 [INF] Executed ViewResult - view Index executed in 529.4472ms.
+2022-06-26 08:14:10.250 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 557.2194ms
+2022-06-26 08:14:10.252 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 08:14:10.385 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 988.9841ms
+2022-06-26 08:14:10.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 08:14:10.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 08:14:10.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 7.3489ms
+2022-06-26 08:14:10.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.6694ms
+2022-06-26 08:14:39.181 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 08:14:39.192 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 08:14:39.195 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 08:14:39.200 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 08:14:39.223 +03:00 [INF] Executed ViewResult - view Goods executed in 24.3793ms.
+2022-06-26 08:14:39.225 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 27.5981ms
+2022-06-26 08:14:39.226 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 08:14:39.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 49.9659ms
+2022-06-26 08:14:39.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 08:14:39.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 08:14:39.265 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 9.1508ms
+2022-06-26 08:14:39.277 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.8252ms
+2022-06-26 08:14:46.235 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 08:14:46.240 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 08:14:46.263 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:40:02.807 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 12:40:03.172 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 12:40:03.173 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 12:40:03.178 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 12:40:03.179 +03:00 [INF] Hosting environment: Development
+2022-06-26 12:40:03.180 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 12:40:04.547 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 12:40:04.700 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:40:04.773 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 12:40:04.790 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 12:40:05.053 +03:00 [INF] Executed ViewResult - view Index executed in 265.2206ms.
+2022-06-26 12:40:05.062 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 287.1364ms
+2022-06-26 12:40:05.064 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:40:05.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 613.1333ms
+2022-06-26 12:40:05.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:40:05.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:40:05.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 10.6597ms
+2022-06-26 12:40:05.206 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.5165ms
+2022-06-26 12:40:06.718 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:40:06.724 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:40:06.727 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:40:06.731 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:40:06.752 +03:00 [INF] Executed ViewResult - view Goods executed in 21.4161ms.
+2022-06-26 12:40:06.753 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 24.0246ms
+2022-06-26 12:40:06.754 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:40:06.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 40.0681ms
+2022-06-26 12:40:06.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:40:06.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:40:06.778 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.6605ms
+2022-06-26 12:40:06.824 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.5857ms
+2022-06-26 12:40:29.310 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 12:40:29.313 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:40:29.336 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:40:56.537 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 27198.5922ms
+2022-06-26 12:40:56.541 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:40:56.549 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at WebApp_MVC.Models.Catalog.Add(Good item, CancellationToken canselToken) in C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\Models\Catalog.cs:line 9
+   at WebApp_MVC.Controllers.GoodsController.Goods(Good model) in C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\Controllers\GoodsController.cs:line 25
+   at lambda_method27(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-26 12:40:57.025 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 500 - text/html;+charset=utf-8 27715.7505ms
+2022-06-26 12:40:57.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:40:57.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:40:57.053 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 7.6602ms
+2022-06-26 12:40:57.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.7079ms
+2022-06-26 12:41:08.714 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 12:41:09.320 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 12:41:09.324 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 12:41:09.332 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 12:41:09.333 +03:00 [INF] Hosting environment: Development
+2022-06-26 12:41:09.334 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 12:41:10.415 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 12:41:10.621 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:41:10.725 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 12:41:10.757 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 12:41:11.080 +03:00 [INF] Executed ViewResult - view Index executed in 333.4846ms.
+2022-06-26 12:41:11.089 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 359.9026ms
+2022-06-26 12:41:11.090 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:41:11.143 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 734.8492ms
+2022-06-26 12:41:11.176 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:41:11.176 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:41:11.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 9.4157ms
+2022-06-26 12:41:11.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.4372ms
+2022-06-26 12:41:13.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:41:13.013 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:41:13.020 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:41:13.027 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:41:13.061 +03:00 [INF] Executed ViewResult - view Goods executed in 35.0314ms.
+2022-06-26 12:41:13.063 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 39.0041ms
+2022-06-26 12:41:13.064 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:41:13.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 64.0826ms
+2022-06-26 12:41:13.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:41:13.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:41:13.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.8692ms
+2022-06-26 12:41:13.107 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.9427ms
+2022-06-26 12:41:17.633 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 12:41:17.639 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:41:17.657 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:41:21.004 +03:00 [INF] Добавлены данные : Id 1 Name Книга 1 Discrgfdgg
+2022-06-26 12:41:21.006 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:41:21.016 +03:00 [INF] Executed ViewResult - view Goods executed in 10.0506ms.
+2022-06-26 12:41:21.017 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 3357.8024ms
+2022-06-26 12:41:21.018 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:41:21.020 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 3387.6759ms
+2022-06-26 12:41:21.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:41:21.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:41:21.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.5168ms
+2022-06-26 12:41:21.052 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.2278ms
+2022-06-26 12:41:24.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 12:41:24.612 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 12:41:24.616 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 12:41:24.620 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 12:41:24.634 +03:00 [INF] Executed ViewResult - view Categories executed in 14.6516ms.
+2022-06-26 12:41:24.635 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 16.32ms
+2022-06-26 12:41:24.636 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 12:41:24.638 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 31.9446ms
+2022-06-26 12:41:24.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:41:24.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:41:24.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.8568ms
+2022-06-26 12:41:24.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.5074ms
+2022-06-26 12:41:26.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:41:26.247 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:41:26.248 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:41:26.250 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:41:26.259 +03:00 [INF] Executed ViewResult - view Goods executed in 8.3007ms.
+2022-06-26 12:41:26.260 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 9.7475ms
+2022-06-26 12:41:26.261 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:41:26.264 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 19.5325ms
+2022-06-26 12:41:26.281 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:41:26.281 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:41:26.284 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.1944ms
+2022-06-26 12:41:26.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.3107ms
+2022-06-26 12:41:33.644 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 12:41:33.647 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:41:33.648 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:41:44.084 +03:00 [INF] Добавлены данные : Id 2 Name Книга 3 Discrgfdgg
+2022-06-26 12:41:44.114 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:41:44.119 +03:00 [INF] Executed ViewResult - view Goods executed in 5.2199ms.
+2022-06-26 12:41:44.121 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 10469.2352ms
+2022-06-26 12:41:44.121 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:41:44.123 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 10479.1081ms
+2022-06-26 12:41:44.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:41:44.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:41:44.142 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.4968ms
+2022-06-26 12:41:44.152 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.8930ms
+2022-06-26 12:42:13.401 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/CanselQ - -
+2022-06-26 12:42:13.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/CanselQ - - - 404 0 - 2.6565ms
+2022-06-26 12:42:38.953 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/https://localhost:7047/Goods/Goods - -
+2022-06-26 12:42:38.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/https://localhost:7047/Goods/Goods - - - 404 0 - 9.7443ms
+2022-06-26 12:43:22.794 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:43:22.802 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:43:22.804 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:43:22.807 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:43:22.814 +03:00 [INF] Executed ViewResult - view Goods executed in 7.2095ms.
+2022-06-26 12:43:22.817 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 10.3723ms
+2022-06-26 12:43:22.822 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:43:22.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 32.6665ms
+2022-06-26 12:43:22.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:43:22.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:43:22.981 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 19.1350ms
+2022-06-26 12:43:23.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.4158ms
+2022-06-26 12:43:25.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 12:43:25.393 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 12:43:25.397 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 12:43:25.402 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 12:43:25.407 +03:00 [INF] Executed ViewResult - view Categories executed in 4.9529ms.
+2022-06-26 12:43:25.408 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 6.2524ms
+2022-06-26 12:43:25.410 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 12:43:25.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 22.0250ms
+2022-06-26 12:43:25.430 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:43:25.430 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:43:25.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.4108ms
+2022-06-26 12:43:25.437 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.1689ms
+2022-06-26 12:43:26.831 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:43:26.833 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:43:26.834 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:43:26.838 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:43:26.845 +03:00 [INF] Executed ViewResult - view Goods executed in 7.3312ms.
+2022-06-26 12:43:26.846 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 8.822ms
+2022-06-26 12:43:26.847 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:43:26.850 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 18.9538ms
+2022-06-26 12:43:26.865 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:43:26.865 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:43:26.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.1629ms
+2022-06-26 12:43:26.877 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.1635ms
+2022-06-26 12:43:43.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/CancelQ - -
+2022-06-26 12:43:43.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/CancelQ - - - 404 0 - 2.7799ms
+2022-06-26 12:43:57.258 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/CancelQ - -
+2022-06-26 12:43:57.265 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC)'
+2022-06-26 12:43:57.270 +03:00 [INF] Route matched with {action = "CancelQuery", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CancelQuery(System.String, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:44:03.224 +03:00 [INF] Executing ViewResult, running view CancelQuery.
+2022-06-26 12:44:03.233 +03:00 [ERR] The view 'CancelQuery' was not found. Searched locations: ["/Views/Goods/CancelQuery.cshtml","/Views/Shared/CancelQuery.cshtml"]
+2022-06-26 12:44:03.245 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC) in 5971.5625ms
+2022-06-26 12:44:03.246 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC)'
+2022-06-26 12:44:03.252 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'CancelQuery' was not found. The following locations were searched:
+/Views/Goods/CancelQuery.cshtml
+/Views/Shared/CancelQuery.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-26 12:44:03.373 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/CancelQ - - - 500 - text/html;+charset=utf-8 6115.3060ms
+2022-06-26 12:44:03.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:44:03.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:44:03.392 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.2218ms
+2022-06-26 12:44:03.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.4495ms
+2022-06-26 12:47:54.986 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 12:47:55.435 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 12:47:55.437 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 12:47:55.443 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 12:47:55.444 +03:00 [INF] Hosting environment: Development
+2022-06-26 12:47:55.445 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 12:47:56.445 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 12:47:56.620 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:47:56.679 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 12:47:56.698 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 12:47:56.921 +03:00 [INF] Executed ViewResult - view Index executed in 226.0666ms.
+2022-06-26 12:47:56.929 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 245.583ms
+2022-06-26 12:47:56.932 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:47:56.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 543.2749ms
+2022-06-26 12:47:57.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:47:57.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:47:57.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 11.7042ms
+2022-06-26 12:47:57.064 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.5101ms
+2022-06-26 12:47:59.805 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:47:59.811 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:47:59.816 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:47:59.819 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:47:59.839 +03:00 [INF] Executed ViewResult - view Goods executed in 20.3806ms.
+2022-06-26 12:47:59.840 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 23.3026ms
+2022-06-26 12:47:59.842 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:47:59.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 41.3265ms
+2022-06-26 12:47:59.860 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:47:59.860 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:47:59.862 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.7532ms
+2022-06-26 12:47:59.875 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.9449ms
+2022-06-26 12:48:04.664 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 12:48:04.669 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:48:04.688 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:48:05.348 +03:00 [INF] Добавлены данные : Id 2 Name Книга 3 Discrgfdgg
+2022-06-26 12:48:05.350 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:48:05.364 +03:00 [INF] Executed ViewResult - view Goods executed in 14.1622ms.
+2022-06-26 12:48:05.366 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 675.9476ms
+2022-06-26 12:48:05.367 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:48:05.371 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 706.3141ms
+2022-06-26 12:48:05.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:48:05.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:48:05.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.5959ms
+2022-06-26 12:48:05.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.1294ms
+2022-06-26 12:48:11.674 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 284
+2022-06-26 12:48:11.676 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:48:11.677 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:48:11.907 +03:00 [INF] Добавлены данные : Id 2 Name rert Discrавва
+2022-06-26 12:48:11.909 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:48:11.917 +03:00 [INF] Executed ViewResult - view Goods executed in 7.7191ms.
+2022-06-26 12:48:11.918 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 237.2493ms
+2022-06-26 12:48:11.920 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:48:11.923 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 284 - 200 - text/html;+charset=utf-8 249.3821ms
+2022-06-26 12:48:11.940 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:48:11.940 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:48:11.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.2543ms
+2022-06-26 12:48:11.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.7288ms
+2022-06-26 12:48:34.392 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/CancelQ - -
+2022-06-26 12:48:34.399 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC)'
+2022-06-26 12:48:34.402 +03:00 [INF] Route matched with {action = "CancelQuery", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CancelQuery(System.String, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:48:37.959 +03:00 [INF] Executing ViewResult, running view CancelQuery.
+2022-06-26 12:48:37.974 +03:00 [ERR] The view 'CancelQuery' was not found. Searched locations: ["/Views/Goods/CancelQuery.cshtml","/Views/Shared/CancelQuery.cshtml"]
+2022-06-26 12:48:37.983 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC) in 3577.4889ms
+2022-06-26 12:48:37.984 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC)'
+2022-06-26 12:48:37.988 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'CancelQuery' was not found. The following locations were searched:
+/Views/Goods/CancelQuery.cshtml
+/Views/Shared/CancelQuery.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-26 12:48:38.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/CancelQ - - - 500 - text/html;+charset=utf-8 3679.8763ms
+2022-06-26 12:48:38.088 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:48:38.088 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:48:38.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.2956ms
+2022-06-26 12:48:38.111 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.1246ms
+2022-06-26 12:52:25.121 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 12:52:25.581 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 12:52:25.583 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 12:52:25.589 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 12:52:25.591 +03:00 [INF] Hosting environment: Development
+2022-06-26 12:52:25.591 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 12:52:26.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 12:52:26.613 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:52:26.672 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 12:52:26.690 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 12:52:26.907 +03:00 [INF] Executed ViewResult - view Index executed in 220.9062ms.
+2022-06-26 12:52:26.914 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 239.3481ms
+2022-06-26 12:52:26.915 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:52:26.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 522.8675ms
+2022-06-26 12:52:26.999 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:52:26.999 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:52:27.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 8.5520ms
+2022-06-26 12:52:27.030 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.3109ms
+2022-06-26 12:52:29.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:52:29.980 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:52:29.984 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:52:29.987 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:52:30.011 +03:00 [INF] Executed ViewResult - view Goods executed in 24.2086ms.
+2022-06-26 12:52:30.013 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 27.0866ms
+2022-06-26 12:52:30.014 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:52:30.018 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 44.2595ms
+2022-06-26 12:52:30.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:52:30.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:52:30.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 4.0558ms
+2022-06-26 12:52:30.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.8385ms
+2022-06-26 12:52:35.162 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 12:52:35.168 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:52:35.184 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:59:14.167 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 12:59:14.679 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 12:59:14.680 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 12:59:14.685 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 12:59:14.686 +03:00 [INF] Hosting environment: Development
+2022-06-26 12:59:14.687 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 12:59:15.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 12:59:15.789 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:59:15.851 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 12:59:15.868 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 12:59:16.099 +03:00 [INF] Executed ViewResult - view Index executed in 232.2445ms.
+2022-06-26 12:59:16.106 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 252.1613ms
+2022-06-26 12:59:16.108 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 12:59:16.146 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 448.5486ms
+2022-06-26 12:59:16.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:59:16.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:59:16.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 7.2607ms
+2022-06-26 12:59:16.236 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.9017ms
+2022-06-26 12:59:17.898 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:59:17.905 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:59:17.909 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:59:17.914 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:59:17.946 +03:00 [INF] Executed ViewResult - view Goods executed in 33.8461ms.
+2022-06-26 12:59:17.948 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 36.846ms
+2022-06-26 12:59:17.949 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:59:17.957 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 58.7525ms
+2022-06-26 12:59:17.972 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:59:17.972 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:59:17.975 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.9186ms
+2022-06-26 12:59:17.981 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.1229ms
+2022-06-26 12:59:22.238 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312
+2022-06-26 12:59:22.243 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:59:22.264 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:59:22.958 +03:00 [INF] Добавлены данные : Id 1 Name Книга 3 Discrавва
+2022-06-26 12:59:22.961 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:59:22.970 +03:00 [INF] Executed ViewResult - view Goods executed in 9.728ms.
+2022-06-26 12:59:22.972 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 705.3251ms
+2022-06-26 12:59:22.973 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:59:22.977 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312 - 200 - text/html;+charset=utf-8 739.1776ms
+2022-06-26 12:59:22.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:59:22.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:59:22.999 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 4.0488ms
+2022-06-26 12:59:23.004 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.4624ms
+2022-06-26 12:59:34.749 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312
+2022-06-26 12:59:34.753 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:59:34.755 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:59:34.977 +03:00 [INF] Добавлены данные : Id 3 Name Книга 2 Discrавва
+2022-06-26 12:59:34.978 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:59:34.989 +03:00 [INF] Executed ViewResult - view Goods executed in 10.3571ms.
+2022-06-26 12:59:34.990 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 231.7576ms
+2022-06-26 12:59:34.991 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:59:34.993 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312 - 200 - text/html;+charset=utf-8 243.5464ms
+2022-06-26 12:59:35.009 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:59:35.010 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:59:35.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.3832ms
+2022-06-26 12:59:35.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.1406ms
+2022-06-26 12:59:40.580 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 12:59:40.582 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 12:59:40.586 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 12:59:40.590 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 12:59:40.600 +03:00 [INF] Executed ViewResult - view Categories executed in 10.97ms.
+2022-06-26 12:59:40.601 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 12.7784ms
+2022-06-26 12:59:40.602 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 12:59:40.604 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 23.8746ms
+2022-06-26 12:59:40.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:59:40.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:59:40.620 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.4708ms
+2022-06-26 12:59:40.630 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.5645ms
+2022-06-26 12:59:41.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 12:59:41.770 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:59:41.772 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 12:59:41.776 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 12:59:41.782 +03:00 [INF] Executed ViewResult - view Goods executed in 6.0689ms.
+2022-06-26 12:59:41.783 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 7.2995ms
+2022-06-26 12:59:41.784 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 12:59:41.787 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 19.2473ms
+2022-06-26 12:59:41.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 12:59:41.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 12:59:41.806 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.6206ms
+2022-06-26 12:59:41.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.6679ms
+2022-06-26 13:00:06.022 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 13:00:06.031 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 13:00:06.032 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 13:00:06.246 +03:00 [INF] Добавлены данные : Id 4 Name Книга 2 Discrgfdgg
+2022-06-26 13:00:06.247 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 13:00:06.253 +03:00 [INF] Executed ViewResult - view Goods executed in 5.8155ms.
+2022-06-26 13:00:06.255 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 221.2343ms
+2022-06-26 13:00:06.258 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 13:00:06.261 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 238.7221ms
+2022-06-26 13:00:06.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:00:06.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:00:06.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.4820ms
+2022-06-26 13:00:06.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.3933ms
+2022-06-26 13:00:14.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 13:00:14.534 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 13:00:14.536 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 13:00:14.541 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 13:00:14.546 +03:00 [INF] Executed ViewResult - view Categories executed in 6.0308ms.
+2022-06-26 13:00:14.547 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 7.6689ms
+2022-06-26 13:00:14.548 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 13:00:14.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 18.2148ms
+2022-06-26 13:00:14.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:00:14.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:00:14.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.2184ms
+2022-06-26 13:00:14.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.8552ms
+2022-06-26 13:01:00.526 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 13:01:00.989 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 13:01:00.990 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 13:01:00.998 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 13:01:00.999 +03:00 [INF] Hosting environment: Development
+2022-06-26 13:01:01.000 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 13:01:01.906 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 13:01:02.027 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 13:01:02.089 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 13:01:02.105 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 13:01:02.356 +03:00 [INF] Executed ViewResult - view Index executed in 253.5915ms.
+2022-06-26 13:01:02.366 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 274.5054ms
+2022-06-26 13:01:02.368 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 13:01:02.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 517.9552ms
+2022-06-26 13:01:02.451 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:01:02.451 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:01:02.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 7.0392ms
+2022-06-26 13:01:02.480 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.8243ms
+2022-06-26 13:01:06.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 13:01:06.034 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 13:01:06.038 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 13:01:06.041 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 13:01:06.053 +03:00 [INF] Executed ViewResult - view Categories executed in 12.5928ms.
+2022-06-26 13:01:06.054 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 14.907ms
+2022-06-26 13:01:06.055 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 13:01:06.058 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 31.1463ms
+2022-06-26 13:01:06.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:01:06.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:01:06.073 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.3577ms
+2022-06-26 13:01:06.088 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.9250ms
+2022-06-26 13:01:09.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 13:01:09.406 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 13:01:09.410 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 13:01:09.414 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 13:01:09.429 +03:00 [INF] Executed ViewResult - view Goods executed in 15.9315ms.
+2022-06-26 13:01:09.431 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 18.0686ms
+2022-06-26 13:01:09.432 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 13:01:09.435 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 33.1267ms
+2022-06-26 13:01:09.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:01:09.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:01:09.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.6540ms
+2022-06-26 13:01:09.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.3253ms
+2022-06-26 13:01:37.730 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/CancelQ - -
+2022-06-26 13:01:37.735 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC)'
+2022-06-26 13:01:37.751 +03:00 [INF] Route matched with {action = "CancelQuery", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CancelQuery(System.String, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 13:05:05.759 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 13:05:06.696 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 13:05:17.191 +03:00 [INF] Executing ViewResult, running view CancelQuery.
+2022-06-26 13:05:17.197 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 13:05:17.199 +03:00 [ERR] The view 'CancelQuery' was not found. Searched locations: ["/Views/Goods/CancelQuery.cshtml","/Views/Shared/CancelQuery.cshtml"]
+2022-06-26 13:05:17.229 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC) in 219476.1119ms
+2022-06-26 13:05:17.233 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.CancelQuery (WebApp_MVC)'
+2022-06-26 13:05:17.240 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'CancelQuery' was not found. The following locations were searched:
+/Views/Goods/CancelQuery.cshtml
+/Views/Shared/CancelQuery.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-26 13:05:17.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/CancelQ - - - 500 - text/html;+charset=utf-8 219689.2152ms
+2022-06-26 13:06:19.999 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 13:06:20.504 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 13:06:20.505 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 13:06:20.510 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 13:06:20.511 +03:00 [INF] Hosting environment: Development
+2022-06-26 13:06:20.512 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 13:06:21.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 13:06:21.838 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 13:06:21.890 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 13:06:21.911 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 13:06:22.134 +03:00 [INF] Executed ViewResult - view Index executed in 226.432ms.
+2022-06-26 13:06:22.143 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 250.5642ms
+2022-06-26 13:06:22.144 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 13:06:22.184 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 472.2938ms
+2022-06-26 13:06:22.214 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:06:22.214 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:06:22.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 6.8326ms
+2022-06-26 13:06:22.240 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.9746ms
+2022-06-26 13:06:40.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/CancelQ - -
+2022-06-26 13:06:40.166 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.CancelQueryTest (WebApp_MVC)'
+2022-06-26 13:06:40.187 +03:00 [INF] Route matched with {action = "CancelQueryTest", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CancelQueryTest(System.String, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 13:06:52.703 +03:00 [INF] Executing ViewResult, running view CancelQueryTest.
+2022-06-26 13:06:52.710 +03:00 [ERR] The view 'CancelQueryTest' was not found. Searched locations: ["/Views/Goods/CancelQueryTest.cshtml","/Views/Shared/CancelQueryTest.cshtml"]
+2022-06-26 13:06:52.721 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.CancelQueryTest (WebApp_MVC) in 12532.0225ms
+2022-06-26 13:06:52.722 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.CancelQueryTest (WebApp_MVC)'
+2022-06-26 13:06:52.727 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'CancelQueryTest' was not found. The following locations were searched:
+/Views/Goods/CancelQueryTest.cshtml
+/Views/Shared/CancelQueryTest.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-26 13:06:52.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/CancelQ - - - 500 - text/html;+charset=utf-8 12651.7605ms
+2022-06-26 13:06:52.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:06:52.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:06:52.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.3730ms
+2022-06-26 13:06:52.877 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.7863ms
+2022-06-26 13:07:15.687 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 13:07:16.107 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 13:07:16.109 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 13:07:16.113 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 13:07:16.114 +03:00 [INF] Hosting environment: Development
+2022-06-26 13:07:16.115 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 13:07:17.150 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 13:07:17.259 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 13:07:17.313 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 13:07:17.332 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 13:07:17.555 +03:00 [INF] Executed ViewResult - view Index executed in 224.0639ms.
+2022-06-26 13:07:17.563 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 247.5999ms
+2022-06-26 13:07:17.565 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 13:07:17.609 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 465.2215ms
+2022-06-26 13:07:17.634 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:07:17.634 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:07:17.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 8.0212ms
+2022-06-26 13:07:17.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.8132ms
+2022-06-26 13:07:31.221 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 13:07:31.223 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 13:07:31.224 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 13:07:31.227 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 13:07:31.236 +03:00 [INF] Executed ViewResult - view Index executed in 9.6523ms.
+2022-06-26 13:07:31.237 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 11.2351ms
+2022-06-26 13:07:31.238 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 13:07:31.242 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 21.3525ms
+2022-06-26 13:07:31.260 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:07:31.261 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:07:31.261 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.2924ms
+2022-06-26 13:07:31.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9053ms
+2022-06-26 13:07:36.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 13:07:36.166 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 13:07:36.170 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 13:07:36.173 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 13:07:36.190 +03:00 [INF] Executed ViewResult - view Goods executed in 17.4182ms.
+2022-06-26 13:07:36.191 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 19.7142ms
+2022-06-26 13:07:36.193 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 13:07:36.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 35.7245ms
+2022-06-26 13:07:36.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 13:07:36.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 13:07:36.212 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.2165ms
+2022-06-26 13:07:36.237 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.1579ms
+2022-06-26 17:57:33.609 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 17:57:33.980 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 17:57:33.981 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 17:57:33.989 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 17:57:33.990 +03:00 [INF] Hosting environment: Development
+2022-06-26 17:57:33.990 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 17:57:35.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 17:57:35.659 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:57:35.746 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 17:57:35.773 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 17:57:36.065 +03:00 [INF] Executed ViewResult - view Index executed in 299.5443ms.
+2022-06-26 17:57:36.075 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 325.6476ms
+2022-06-26 17:57:36.077 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:57:36.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 618.1015ms
+2022-06-26 17:57:36.207 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:36.207 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:36.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 8.7447ms
+2022-06-26 17:57:36.242 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.3298ms
+2022-06-26 17:57:37.552 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 17:57:37.559 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:37.562 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 17:57:37.566 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 17:57:37.589 +03:00 [INF] Executed ViewResult - view Goods executed in 24.4365ms.
+2022-06-26 17:57:37.591 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 26.631ms
+2022-06-26 17:57:37.592 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:37.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 43.4603ms
+2022-06-26 17:57:37.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:37.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:37.612 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.2286ms
+2022-06-26 17:57:37.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.7102ms
+2022-06-26 17:57:41.994 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 17:57:42.004 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:42.026 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 17:57:42.760 +03:00 [INF] Добавлены данные : Id 1 Name Книга 1 Discrgfdgg
+2022-06-26 17:57:42.762 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 17:57:42.769 +03:00 [INF] Executed ViewResult - view Goods executed in 7.6565ms.
+2022-06-26 17:57:42.770 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 742.0201ms
+2022-06-26 17:57:42.771 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:42.774 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 780.4625ms
+2022-06-26 17:57:42.788 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:42.788 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:42.789 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.2233ms
+2022-06-26 17:57:42.796 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.1694ms
+2022-06-26 17:57:44.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 17:57:44.383 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 17:57:44.386 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 17:57:44.391 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 17:57:44.400 +03:00 [INF] Executed ViewResult - view Categories executed in 9.0017ms.
+2022-06-26 17:57:44.401 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 10.5124ms
+2022-06-26 17:57:44.402 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 17:57:44.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 23.0537ms
+2022-06-26 17:57:44.417 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:44.417 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:44.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 8.0979ms
+2022-06-26 17:57:44.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.1712ms
+2022-06-26 17:57:45.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 17:57:45.958 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:45.960 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 17:57:45.965 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 17:57:45.971 +03:00 [INF] Executed ViewResult - view Goods executed in 6.5324ms.
+2022-06-26 17:57:45.972 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 7.9548ms
+2022-06-26 17:57:45.973 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:45.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 21.2765ms
+2022-06-26 17:57:45.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:45.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:45.991 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.6186ms
+2022-06-26 17:57:46.001 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.5986ms
+2022-06-26 17:57:47.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 17:57:47.506 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 17:57:47.508 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 17:57:47.512 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 17:57:47.517 +03:00 [INF] Executed ViewResult - view Categories executed in 5.0869ms.
+2022-06-26 17:57:47.518 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 6.433ms
+2022-06-26 17:57:47.519 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 17:57:47.521 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 17.9114ms
+2022-06-26 17:57:47.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:47.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:47.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.1933ms
+2022-06-26 17:57:47.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.8278ms
+2022-06-26 17:57:49.085 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 17:57:49.089 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:49.090 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 17:57:49.093 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 17:57:49.099 +03:00 [INF] Executed ViewResult - view Goods executed in 6.2968ms.
+2022-06-26 17:57:49.100 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 7.5559ms
+2022-06-26 17:57:49.102 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:49.106 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 20.6494ms
+2022-06-26 17:57:49.119 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:49.119 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:49.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.4256ms
+2022-06-26 17:57:49.127 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.7646ms
+2022-06-26 17:57:53.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 17:57:53.793 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 17:57:53.794 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 17:57:53.800 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 17:57:53.808 +03:00 [INF] Executed ViewResult - view Categories executed in 7.8115ms.
+2022-06-26 17:57:53.810 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 9.9908ms
+2022-06-26 17:57:53.811 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 17:57:53.814 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 24.9947ms
+2022-06-26 17:57:53.835 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:53.835 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:53.838 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.2192ms
+2022-06-26 17:57:53.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.9992ms
+2022-06-26 17:57:56.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 17:57:56.630 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:56.631 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 17:57:56.633 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 17:57:56.641 +03:00 [INF] Executed ViewResult - view Goods executed in 7.469ms.
+2022-06-26 17:57:56.642 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 8.5776ms
+2022-06-26 17:57:56.643 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:57:56.645 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 18.2469ms
+2022-06-26 17:57:56.661 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:56.661 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:56.664 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.6843ms
+2022-06-26 17:57:56.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.5332ms
+2022-06-26 17:57:59.780 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Home/Privacy - -
+2022-06-26 17:57:59.783 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Privacy (WebApp_MVC)'
+2022-06-26 17:57:59.788 +03:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 17:57:59.792 +03:00 [INF] Executing ViewResult, running view Privacy.
+2022-06-26 17:57:59.801 +03:00 [INF] Executed ViewResult - view Privacy executed in 10.4039ms.
+2022-06-26 17:57:59.802 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Privacy (WebApp_MVC) in 12.398ms
+2022-06-26 17:57:59.803 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Privacy (WebApp_MVC)'
+2022-06-26 17:57:59.807 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Home/Privacy - - - 200 - text/html;+charset=utf-8 26.1076ms
+2022-06-26 17:57:59.824 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:57:59.824 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:57:59.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.4242ms
+2022-06-26 17:57:59.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.0870ms
+2022-06-26 17:58:01.406 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 17:58:01.408 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:58:01.409 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 17:58:01.413 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 17:58:01.420 +03:00 [INF] Executed ViewResult - view Index executed in 7.4294ms.
+2022-06-26 17:58:01.421 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 8.6182ms
+2022-06-26 17:58:01.422 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:58:01.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 18.5455ms
+2022-06-26 17:58:01.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:58:01.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:58:01.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.3182ms
+2022-06-26 17:58:01.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.6889ms
+2022-06-26 17:58:04.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 17:58:04.991 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:58:04.992 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 17:58:05.000 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 17:58:05.008 +03:00 [INF] Executed ViewResult - view Index executed in 7.6342ms.
+2022-06-26 17:58:05.009 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 9.0184ms
+2022-06-26 17:58:05.011 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:58:05.014 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 25.9011ms
+2022-06-26 17:58:05.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:58:05.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:58:05.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.5721ms
+2022-06-26 17:58:05.060 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.0218ms
+2022-06-26 17:58:12.489 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 17:58:12.491 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:58:12.492 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 17:58:12.495 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 17:58:12.502 +03:00 [INF] Executed ViewResult - view Index executed in 6.5441ms.
+2022-06-26 17:58:12.504 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 8.7162ms
+2022-06-26 17:58:12.506 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:58:12.509 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 19.9669ms
+2022-06-26 17:58:12.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:58:12.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:58:12.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.1890ms
+2022-06-26 17:58:12.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.5958ms
+2022-06-26 17:58:13.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 17:58:13.390 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:58:13.391 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 17:58:13.394 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 17:58:13.400 +03:00 [INF] Executed ViewResult - view Index executed in 5.8932ms.
+2022-06-26 17:58:13.401 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 7.2642ms
+2022-06-26 17:58:13.402 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 17:58:13.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 16.5581ms
+2022-06-26 17:58:13.418 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:58:13.418 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:58:13.421 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.0186ms
+2022-06-26 17:58:13.437 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.3593ms
+2022-06-26 17:58:14.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 17:58:14.672 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:58:14.673 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 17:58:14.676 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 17:58:14.682 +03:00 [INF] Executed ViewResult - view Goods executed in 5.8065ms.
+2022-06-26 17:58:14.683 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 7.0881ms
+2022-06-26 17:58:14.685 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 17:58:14.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 17.7953ms
+2022-06-26 17:58:14.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 17:58:14.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 17:58:14.701 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.3628ms
+2022-06-26 17:58:14.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.1311ms
+2022-06-26 18:28:43.906 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 18:28:44.307 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 18:28:44.308 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 18:28:44.314 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 18:28:44.315 +03:00 [INF] Hosting environment: Development
+2022-06-26 18:28:44.316 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 18:28:45.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 18:28:45.330 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 18:28:45.420 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 18:28:45.441 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 18:28:45.767 +03:00 [INF] Executed ViewResult - view Index executed in 331.6553ms.
+2022-06-26 18:28:45.776 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 353.4052ms
+2022-06-26 18:28:45.778 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 18:28:45.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 642.1634ms
+2022-06-26 18:28:45.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:28:45.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:28:45.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 6.5072ms
+2022-06-26 18:28:45.913 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.8826ms
+2022-06-26 18:28:48.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 18:28:48.136 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:28:48.139 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:28:48.143 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:28:48.168 +03:00 [INF] Executed ViewResult - view Goods executed in 26.4823ms.
+2022-06-26 18:28:48.170 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 28.7471ms
+2022-06-26 18:28:48.171 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:28:48.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 44.2941ms
+2022-06-26 18:28:48.188 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:28:48.188 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:28:48.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.4374ms
+2022-06-26 18:28:48.200 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.0470ms
+2022-06-26 18:28:52.801 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 18:28:52.807 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:28:52.827 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:28:53.627 +03:00 [INF] Добавлены данные : Id 1 Name Книга 1 Discrgfdgg
+2022-06-26 18:28:53.628 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:28:53.640 +03:00 [INF] Executed ViewResult - view Goods executed in 11.5725ms.
+2022-06-26 18:28:53.641 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 811.3951ms
+2022-06-26 18:28:53.642 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:28:53.644 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 842.8969ms
+2022-06-26 18:28:53.660 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:28:53.660 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:28:53.661 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.4354ms
+2022-06-26 18:28:53.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.5423ms
+2022-06-26 18:29:21.349 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312
+2022-06-26 18:29:21.359 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:29:21.360 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:30:48.351 +03:00 [INF] Добавлены данные : Id 2 Name Книга 2 Discrавва
+2022-06-26 18:30:48.353 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:30:48.364 +03:00 [INF] Executed ViewResult - view Goods executed in 11.2002ms.
+2022-06-26 18:30:48.365 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 87002.2739ms
+2022-06-26 18:30:48.366 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:30:48.372 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312 - 200 - text/html;+charset=utf-8 87023.9745ms
+2022-06-26 18:30:56.409 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 18:30:56.415 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 18:30:56.432 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 18:30:56.436 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 18:30:56.444 +03:00 [INF] Executed ViewResult - view Categories executed in 9.2914ms.
+2022-06-26 18:30:56.445 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 10.6617ms
+2022-06-26 18:30:56.446 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 18:30:56.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 40.1514ms
+2022-06-26 18:30:56.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:30:56.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:30:56.466 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.5364ms
+2022-06-26 18:30:56.473 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.2117ms
+2022-06-26 18:30:58.022 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 18:30:58.024 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:30:58.025 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:30:58.028 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:30:58.036 +03:00 [INF] Executed ViewResult - view Goods executed in 7.6956ms.
+2022-06-26 18:30:58.037 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 9.0959ms
+2022-06-26 18:30:58.038 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:30:58.040 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 17.7690ms
+2022-06-26 18:30:58.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:30:58.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:30:58.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 8.3991ms
+2022-06-26 18:30:58.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.8876ms
+2022-06-26 18:31:03.487 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312
+2022-06-26 18:31:03.490 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:31:03.491 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:31:18.267 +03:00 [INF] Добавлены данные : Id 2 Name Книга 3 Discrавва
+2022-06-26 18:31:18.268 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:31:18.281 +03:00 [INF] Executed ViewResult - view Goods executed in 12.6611ms.
+2022-06-26 18:31:18.283 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 14789.2007ms
+2022-06-26 18:31:18.284 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:31:18.287 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312 - 200 - text/html;+charset=utf-8 14799.3796ms
+2022-06-26 18:31:18.309 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:31:18.309 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:31:18.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.3612ms
+2022-06-26 18:31:18.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.4068ms
+2022-06-26 18:31:28.024 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 18:31:28.026 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:31:28.027 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:32:15.481 +03:00 [INF] Добавлены данные : Id 2 Name Книга 2 Discrgfdgg
+2022-06-26 18:32:15.482 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:32:15.488 +03:00 [INF] Executed ViewResult - view Goods executed in 5.9488ms.
+2022-06-26 18:32:15.489 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 47458.4562ms
+2022-06-26 18:32:15.490 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:32:15.498 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 47473.8132ms
+2022-06-26 18:32:19.403 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 18:32:19.406 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 18:32:19.407 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 18:32:19.409 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 18:32:19.414 +03:00 [INF] Executed ViewResult - view Categories executed in 5.2035ms.
+2022-06-26 18:32:19.415 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 6.3931ms
+2022-06-26 18:32:19.416 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 18:32:19.418 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 14.9044ms
+2022-06-26 18:32:19.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:32:19.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:32:19.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.0574ms
+2022-06-26 18:32:19.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.0922ms
+2022-06-26 18:32:20.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 18:32:20.158 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:32:20.160 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:32:20.162 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:32:20.170 +03:00 [INF] Executed ViewResult - view Goods executed in 7.5186ms.
+2022-06-26 18:32:20.171 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 9.2628ms
+2022-06-26 18:32:20.172 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:32:20.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 19.1791ms
+2022-06-26 18:32:20.188 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:32:20.188 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:32:20.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.6843ms
+2022-06-26 18:32:20.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.9334ms
+2022-06-26 18:40:26.108 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 18:40:26.519 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 18:40:26.531 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 18:40:26.548 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 18:40:26.558 +03:00 [INF] Hosting environment: Development
+2022-06-26 18:40:26.560 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 18:40:27.783 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 18:40:27.927 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 18:40:27.981 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 18:40:27.998 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 18:40:28.228 +03:00 [INF] Executed ViewResult - view Index executed in 231.2967ms.
+2022-06-26 18:40:28.237 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 252.7845ms
+2022-06-26 18:40:28.238 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 18:40:28.284 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 506.4540ms
+2022-06-26 18:40:28.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:40:28.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:40:28.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 13.6000ms
+2022-06-26 18:40:28.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.1561ms
+2022-06-26 18:40:30.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 18:40:30.815 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:40:30.818 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:40:30.821 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:40:30.845 +03:00 [INF] Executed ViewResult - view Goods executed in 25.0429ms.
+2022-06-26 18:40:30.847 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 27.2996ms
+2022-06-26 18:40:30.847 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:40:30.851 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 41.5770ms
+2022-06-26 18:40:30.874 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:40:30.874 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:40:30.875 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.7784ms
+2022-06-26 18:40:30.900 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.5981ms
+2022-06-26 18:40:35.904 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312
+2022-06-26 18:40:35.909 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:40:35.930 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 18:40:39.188 +03:00 [INF] Добавлены данные : Id 1 Name Книга 2 Discrавва
+2022-06-26 18:40:39.190 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 18:40:39.199 +03:00 [INF] Executed ViewResult - view Goods executed in 9.6878ms.
+2022-06-26 18:40:39.201 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 3269.3743ms
+2022-06-26 18:40:39.203 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 18:40:39.205 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 312 - 200 - text/html;+charset=utf-8 3301.0848ms
+2022-06-26 18:40:39.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:40:39.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:40:39.235 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 9.5428ms
+2022-06-26 18:40:39.257 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.1886ms
+2022-06-26 18:40:41.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 18:40:41.297 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 18:40:41.302 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 18:40:41.306 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 18:40:41.315 +03:00 [INF] Executed ViewResult - view Categories executed in 10.3292ms.
+2022-06-26 18:40:41.316 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 11.949ms
+2022-06-26 18:40:41.318 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 18:40:41.321 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 26.9408ms
+2022-06-26 18:40:41.336 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 18:40:41.336 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 18:40:41.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.4267ms
+2022-06-26 18:40:41.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.3149ms
+2022-06-26 19:09:35.832 +03:00 [INF] User profile is available. Using 'C:\Users\ganse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-26 19:09:36.300 +03:00 [INF] Now listening on: https://localhost:7047
+2022-06-26 19:09:36.301 +03:00 [INF] Now listening on: http://localhost:5047
+2022-06-26 19:09:36.306 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-26 19:09:36.307 +03:00 [INF] Hosting environment: Development
+2022-06-26 19:09:36.308 +03:00 [INF] Content root path: C:\Users\ganse\source\repos\WebApp_MVC\WebApp_MVC\
+2022-06-26 19:09:37.739 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+2022-06-26 19:09:37.853 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 19:09:37.915 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApp_MVC.Controllers.HomeController (WebApp_MVC).
+2022-06-26 19:09:37.933 +03:00 [INF] Executing ViewResult, running view Index.
+2022-06-26 19:09:38.174 +03:00 [INF] Executed ViewResult - view Index executed in 240.7504ms.
+2022-06-26 19:09:38.184 +03:00 [INF] Executed action WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC) in 265.9099ms
+2022-06-26 19:09:38.186 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.HomeController.Index (WebApp_MVC)'
+2022-06-26 19:09:38.232 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 200 - text/html;+charset=utf-8 498.2763ms
+2022-06-26 19:09:38.268 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 19:09:38.268 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 19:09:38.278 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 12.5938ms
+2022-06-26 19:09:38.312 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.8681ms
+2022-06-26 19:09:40.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Goods/Goods - -
+2022-06-26 19:09:40.810 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 19:09:40.812 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods() on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 19:09:40.816 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 19:09:40.844 +03:00 [INF] Executed ViewResult - view Goods executed in 29.6555ms.
+2022-06-26 19:09:40.846 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 31.8584ms
+2022-06-26 19:09:40.847 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 19:09:40.849 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Goods/Goods - - - 200 - text/html;+charset=utf-8 46.3403ms
+2022-06-26 19:09:40.864 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 19:09:40.864 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 19:09:40.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.0291ms
+2022-06-26 19:09:40.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.7135ms
+2022-06-26 19:09:45.049 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293
+2022-06-26 19:09:45.054 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 19:09:45.072 +03:00 [INF] Route matched with {action = "Goods", controller = "Goods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Goods(WebApp_MVC.Models.Good, System.Threading.CancellationToken) on controller WebApp_MVC.Controllers.GoodsController (WebApp_MVC).
+2022-06-26 19:09:47.800 +03:00 [INF] Добавлены данные : Id 2 Name Книга 2 Discrgfdgg
+2022-06-26 19:09:47.801 +03:00 [INF] Executing ViewResult, running view Goods.
+2022-06-26 19:09:47.811 +03:00 [INF] Executed ViewResult - view Goods executed in 10.5868ms.
+2022-06-26 19:09:47.813 +03:00 [INF] Executed action WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC) in 2737.6391ms
+2022-06-26 19:09:47.814 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.GoodsController.Goods (WebApp_MVC)'
+2022-06-26 19:09:47.817 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7047/Goods/Goods application/x-www-form-urlencoded 293 - 200 - text/html;+charset=utf-8 2767.4360ms
+2022-06-26 19:09:47.835 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 19:09:47.835 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 19:09:47.837 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 1.4236ms
+2022-06-26 19:09:47.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.7273ms
+2022-06-26 19:09:49.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/Categories/Categories - -
+2022-06-26 19:09:49.809 +03:00 [INF] Executing endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 19:09:49.812 +03:00 [INF] Route matched with {action = "Categories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApp_MVC.Controllers.CategoriesController (WebApp_MVC).
+2022-06-26 19:09:49.816 +03:00 [INF] Executing ViewResult, running view Categories.
+2022-06-26 19:09:49.823 +03:00 [INF] Executed ViewResult - view Categories executed in 8.6939ms.
+2022-06-26 19:09:49.825 +03:00 [INF] Executed action WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC) in 10.5702ms
+2022-06-26 19:09:49.826 +03:00 [INF] Executed endpoint 'WebApp_MVC.Controllers.CategoriesController.Categories (WebApp_MVC)'
+2022-06-26 19:09:49.828 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/Categories/Categories - - - 200 - text/html;+charset=utf-8 22.4971ms
+2022-06-26 19:09:49.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2022-06-26 19:09:49.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2022-06-26 19:09:49.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.2714ms
+2022-06-26 19:09:49.865 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.5675ms
