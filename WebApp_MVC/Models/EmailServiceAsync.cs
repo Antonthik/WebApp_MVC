@@ -41,7 +41,7 @@ namespace WebApp_MVC.Models
         }
 
 
-        public async void SendEmailCustom()
+        public async Task SendEmailCustom()
         {
             var builder = WebApplication.CreateBuilder();//создаем читаем из appsettings.json
             string host = builder.Configuration["SmtpCredentials:Host"]; //читаем из appsettings.json

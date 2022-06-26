@@ -12,15 +12,34 @@ namespace WebApp_MVC.Controllers
         {
             _catalog = catalog;
             _logger = logger;
+            
         }
 
         [HttpPost]
-        public IActionResult Goods([FromForm] Good model)
+        public IActionResult Goods([FromForm] Good model, CancellationToken cancellationToken)
         {
-         //_catalog.Goods.Add(model);
-           _catalog.Add(model);
+            //_catalog.Goods.Add(model);
+            //var test = new CansellationTokenExemple();
+            //test.DoHevyJob(cts.Token);
+           _catalog.Add(model, cancellationToken);
            _logger.LogInformation($"Добавлены данные : Id {model.Id} Name {model.Name} Discr{model.Discription}");//элемент логирования
 
+            return View();
+        }
+        /// <summary>
+        /// Прменение токена прерывания
+        /// Запрос можно прервать не дожидаясь окончания
+        /// </summary>
+        /// <param name="text"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
+        [HttpGet("CancelQ")]
+        public IActionResult CancelQuery([FromQuery] string text, CancellationToken cancellationToken)
+        {
+            var test = new CansellationTokenExemple();
+            test.DoHevyJob(cancellationToken);
+            //var cts = new CancellationTokenSource(TimeSpan.FromSeconds(3));
+            //cts.Cancel();
             return View();
         }
 

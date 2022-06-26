@@ -4,15 +4,22 @@
     {
         public List<Good> Goods { get; set; }= new List<Good>();
         
-        public void Add(Good item)
-         {
-            lock(Goods)//потокобезопасный, но медленный способ 
+        public void Add(Good item,CancellationToken canselToken)
+        {
+            canselToken.ThrowIfCancellationRequested();//прерывание выполнения запроса
+            try
             {
-                Goods.Add(item);
+                lock (Goods)//потокобезопасный, но медленный способ 
+                {
+                    Goods.Add(item);
+                }
+                var itemMail = new EmailService(email: "asp2022gb@rodion-m.ru", emailTo: "ganseanderson@gmail.com", subject: "22", msg: "товар создан");
+                itemMail.SendEmailCustom();
             }
-            var itemMail = new EmailService(email: "asp2022gb@rodion-m.ru", emailTo: "ganseanderson@gmail.com", subject: "22", msg: "товар создан");
-            itemMail.SendEmailCustom();
-        
+            catch(OperationCanceledException)
+            {
+                Console.WriteLine("Операция отменена.");
+            }
 
         }
         public void Clear()
