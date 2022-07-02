@@ -1,4 +1,6 @@
-﻿namespace WebApp_MVC.Models
+﻿using WebApp_MVC.DomainEvents;
+
+namespace WebApp_MVC.Models
 {
     public class Catalog
     {
@@ -13,8 +15,12 @@
                 {
                     Goods.Add(item);
                 }
-                var itemMail = new EmailService(email: "asp2022gb@rodion-m.ru", emailTo: "ganseanderson@gmail.com", subject: "22", msg: "товар создан");
-                itemMail.SendEmailCustom();
+
+                DomainEvents.DomainEventsManadger.Raise(new ProductAdded(item));
+
+                //Убрали в событие
+                //var itemMail = new EmailService(email: "asp2022gb@rodion-m.ru", emailTo: "ganseanderson@gmail.com", subject: "22", msg: "товар создан");
+                //itemMail.SendEmailCustom();
             }
             catch(OperationCanceledException)
             {

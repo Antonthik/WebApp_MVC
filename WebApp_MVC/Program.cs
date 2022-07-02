@@ -1,4 +1,5 @@
 using Serilog;
+using WebApp_MVC.DomainEvents.EventConsummers;
 using WebApp_MVC.Models;
 
 Log.Logger = new LoggerConfiguration()
@@ -20,6 +21,9 @@ try
     builder.Services.AddControllersWithViews();
     builder.Services.AddSingleton<ThreadSafeCatalog>();
     builder.Services.AddSingleton<Catalog>();
+    //builder.Services.AddSingleton<EmailService>();
+    builder.Services.AddHostedService<ProductAddedEmailSend>();
+
     //builder.Services.AddScoped<Good>();
 
     //добавляем Serilog
