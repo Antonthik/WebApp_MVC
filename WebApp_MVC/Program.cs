@@ -19,7 +19,7 @@ try
 
     // Add services to the container.
     builder.Services.AddControllersWithViews();
-    builder.Services.AddSingleton<ThreadSafeCatalog>();
+    //builder.Services.AddSingleton<ThreadSafeCatalog>();
     builder.Services.AddSingleton<Catalog>();
     //builder.Services.AddSingleton<EmailService>();
     builder.Services.AddHostedService<ProductAddedEmailSend>();
@@ -47,8 +47,25 @@ try
         app.UseHsts();
     }
 
+
+
     app.UseHttpsRedirection();
+
+    //--- Внедряем свой middleware урок9 ---
+    app.Use(async (HttpContext context, Func<Task> next) =>
+    {
+        var userAgent = context.Request.Headers.UserAgent.ToString();
+        if (!userAgent.Contains("Edg"))
+        {
+            context.Response.ContentType = "text/plain; charset=UTF-8";//меняем кодировку сообщения
+            await context.Response.WriteAsync("Ваш браузер не поддерживается.");
+            return;
+        }
+        await next();
+    });
+    //-----------------------------
     app.UseStaticFiles();
+
 
     app.UseRouting();
 
@@ -57,6 +74,8 @@ try
     app.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
 
     app.Run();
 

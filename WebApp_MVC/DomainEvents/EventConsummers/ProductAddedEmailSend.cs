@@ -11,13 +11,13 @@ namespace WebApp_MVC.DomainEvents.EventConsummers
             _logger = logger;
             //_sender = sender; 
 
-            DomainEventsManadger.Register<ProductAdded>(ev => _ = SendMailNotification(ev));//регистрируем событие в менеджере событий, для отслеживания его исполнения
+            DomainEventsManadger.Register<ProductAdded>(ev =>  SendMailNotification());//регистрируем событие в менеджере событий, для отслеживания его исполнения
             DomainEventsManadger.Register<ProductAdded>(ev => _logger.LogInformation("Product added"));//еще одно событие регистрируем
         }
 
 
 
-        private async Task SendMailNotification(ProductAdded ev)
+        private void SendMailNotification()
         {
             try
             {
